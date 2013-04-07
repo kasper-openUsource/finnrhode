@@ -1,0 +1,72 @@
+/* custom styles  start */
+
+ul.main-menu{
+    clear: none;
+    float: right;
+    margin: -51px 0 0;
+    padding: 0;
+    position: relative;
+    z-index: 5;
+}
+ul.main-menu li a, ul.main-menu li a:link, ul.main-menu li a:visited {
+    color: #D6D6D6;
+}
+ul.secondary-menu{padding:0px;margin-bottom: 10px; }
+ul.secondary-menu a{color:lightgray!important }
+ul.secondary-menu a.active {color:gray!important}
+.page-taxonomy h1.with-tabs{display:none;}
+ #carousel-demo1{margin-top: 100px;} 
+ #wrapper #container #header {height:auto}
+#wrapper {
+    background: url("body.png") repeat-x scroll 2% -51px #FEFEFE;
+}
+#wrapper #container .sidebar {
+    margin: 95px 0 5em;
+
+}
+#branding strong{margin-top: -42px;display:block;font-weight: normal}
+h1#branding{margin-top: -42px;display:block}
+#branding a{color:#707070!important;font-size:19.2px!important}
+#branding span{font-weight: normal}
+#tabs-wrapper h1{display:none}
+
+.region-sliding-block{
+    cursor: pointer;
+    padding: 0px;
+    float: right;
+    position: absolute;
+    right: -100px;
+background-color:black;
+color:white;
+width:130px;
+height:125px;
+top:103px;
+z-index: 5;
+}
+.region-sliding-block h2.title {
+    float:left;
+    margin-top: 50px;
+    margin-left: -40px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.region-sliding-block .content{
+    float:right;
+    margin-top: -80px;
+
+}
+html{overflow-x: hidden}
+/* custom style end */
